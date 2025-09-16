@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Engineering Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000; /* Black brand background */
+            color: #fff;
+            line-height: 1.6;
+        }
+        a {
+            color: #87CEEB; /* Sky blue brand accent */
+            text-decoration: underline;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #fff;
+        }
+        /* Header (Simplified) */
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            color: #87CEEB;
+        }
+        /* Service Sections */
+        .service-section {
+            padding: 5rem 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .ripple-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        .ripple {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, rgba(135, 206, 235, 0.3) 0%, rgba(135, 206, 235, 0) 70%);
+            border-radius: 50%;
+            animation: ripple 3s infinite;
+            opacity: 0.6;
+        }
+        @keyframes ripple {
+            0% { transform: scale(0); opacity: 0.6; }
+            100% { transform: scale(3); opacity: 0; }
+        }
+        .ripple:nth-child(2) { animation-delay: 1s; left: 20%; }
+        .ripple:nth-child(3) { animation-delay: 2s; right: 20%; }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        .service-section h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #87CEEB;
+        }
+        .service-section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #ccc;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .service-section h2 {
+                font-size: 2rem;
+            }
+            .service-section p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Water Engineering Solutions</h1>
+    </header>
+
+    <!-- Water & Process Engineering -->
+    <section id="water-engineering" class="service-section">
+        <div class="ripple-container">
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+        </div>
+        <div class="container">
+            <h2>Water & Process Engineering</h2>
+            <p>We deliver innovative water and process engineering solutions, optimizing groundwater management and treatment for sustainable outcomes. Contact us at <a href="mailto:info@yourcompany.com?subject=Water%20Engineering%20Inquiry">info@yourcompany.com</a>.</p>
+        </div>
+    </section>
+
+    <!-- Mechanical Engineering -->
+    <section id="mechanical-engineering" class="service-section">
+        <div class="ripple-container">
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+        </div>
+        <div class="container">
+            <h2>Mechanical Engineering</h2>
+            <p>We design and maintain advanced mechanical systems for water facilities, ensuring efficiency and durability. Reach out at <a href="mailto:info@yourcompany.com?subject=Mechanical%20Engineering%20Inquiry">info@yourcompany.com</a>.</p>
+        </div>
+    </section>
+
+    <!-- Sewage & Effluent Water Management -->
+    <section id="sewage-management" class="service-section">
+        <div class="ripple-container">
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+        </div>
+        <div class="container">
+            <h2>Sewage & Effluent Water Management</h2>
+            <p>Our expertise ensures effective sewage treatment and effluent management for cleaner water systems. Connect at <a href="mailto:info@yourcompany.com?subject=Sewage%20Management%20Inquiry">info@yourcompany.com</a>.</p>
+        </div>
+    </section>
+
+    <!-- Electrical Engineering -->
+    <section id="electrical-engineering" class="service-section">
+        <div class="ripple-container">
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+        </div>
+        <div class="container">
+            <h2>Electrical Engineering</h2>
+            <p>We provide reliable electrical solutions for water infrastructure, powering sustainable projects. Contact us at <a href="mailto:info@yourcompany.com?subject=Electrical%20Engineering%20Inquiry">info@yourcompany.com</a>.</p>
+        </div>
+    </section>
+
+    <!-- Environmental Consulting -->
+    <section id="environmental-consulting" class="service-section">
+        <div class="ripple-container">
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+            <div class="ripple"></div>
+        </div>
+        <div class="container">
+            <h2>Environmental Consulting</h2>
+            <p>Our expertise ensures eco-friendly solutions for water systems and land use, minimizing environmental impact. Reach out at <a href="mailto:info@yourcompany.com?subject=Environmental%20Inquiry">info@yourcompany.com</a>.</p>
+        </div>
+    </section>
+</body>
+</html>
