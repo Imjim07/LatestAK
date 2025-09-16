@@ -4,11 +4,10 @@
             box-sizing: border-box;
         }
         body {
-        font-family: 'Arial', sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         line-height: 1.6;
         color: #fff;
         background-color: #000; /* Brand black as body background */
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         a {
             text-decoration: none;
@@ -27,6 +26,38 @@
             z-index: 1000;
             backdrop-filter: blur(10px);
         }
+
+.first-paragraph::first-letter {
+  font-size: 6rem;
+  color: #87CEEB;
+  float: left;
+  margin-right: 1rem;
+}
+.first-paragraph{
+grid-column: 2 / 3;
+  font-size: 1.8rem;
+  letter-spacing: 0.6px;
+  column-width: 25rem;
+  text-align: justify;
+}
+
+        /* Consistent container for all sections */
+section,
+.about,
+.portfolio,
+.services,
+.service-gallery,
+.contact,
+.client-gallery,
+.slideshow-container,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -34,6 +65,7 @@
     font-weight: bold;
     color: #87CEEB;
     gap: 12px; /* Space between logo and text */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .logo img {
     height: 40px;
@@ -48,6 +80,7 @@
             display: flex;
             list-style: none;
             gap: 2rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         nav ul li a {
             transition: color 0.3s;
@@ -77,8 +110,12 @@
             align-items: center;
             text-align: center;
             position: relative;
-            margin-top: 0;
             overflow: hidden;
+            min-height: 400px;
+            box-sizing: border-box;
+            min-height: 400px;
+            padding-left: 2rem;
+            padding-right: 2rem;
         }
         .hero-bg-video {
     position: absolute;
@@ -95,6 +132,11 @@
 .hero-content {
     position: relative;
     z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
     /* ...existing styles... */
 }
         .hero::before {
@@ -175,6 +217,8 @@
             font-size: 1.1rem;
             margin-bottom: 1rem;
             color: #ccc; /* Light gray for readability */
+                  grid-column: 2 / 3;
+  letter-spacing: 0.6px;
         }
         .about-img {
             background-image: url('../images/side.jpg') center/cover;
