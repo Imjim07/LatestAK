@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalanche Engineering</title>
+    <link rel="stylesheet" href="css/stilltesting.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>      
+    .about-img {
+            background: url('https://images.unsplash.com/photo-1705708551758-76b153fa536e?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover;
+    }
+    .project-img {
+            background: url('images/tank3.jpg') center/cover;
+        }    
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Avalanche Logo"> <!-- Add your logo image here -->
+            Avalanche Engineering
+        </div>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#portfolio">Our Expertise</a></li>
+                <li><a href="#what-we-do">Portfolio</a></li>
+                <li><a href="#our-clients">Our Clients</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+    <video class="hero-bg-video" autoplay muted loop playsinline>
+        <source src="https://www.pexels.com/download/video/4833569/" type="video/mp4">
+        <!-- You can add a webm source for better compatibility -->
+        Your browser does not support the video tag.
+    </video>
+        <div class="hero-content">
+            <h1>Welcome to Avalanche Engineering</h1>
+            <p>From high-performance water treatment systems to modern real estate developments, our facility is where engineering meets sustainability. We create eco-friendly environments, ensuring clean water and smart property solutions for homes, businesses, and industries.</p>
+            <a href="#portfolio" class="cta">Learn More</a>
+        </div>
+    </section>
+
+
+<!--ABOUT US-->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="first-paragraph">Founded in 2001, Avalanche Koncept provides scientific and customer-focused solutions to water challenges in homes, hotels, schools, offices, and industries, ensuring access to quality water as defined by the World Health Organization (WHO). Over time, our expertise has expanded to include property and engineering facility services, meeting diverse design and service needs. Backed by a team of seasoned professionals with experience across various industries, we are committed to delivering top-tier solutions.</p>
+              
+                <a href="#contact" class="email-link">Get in Touch</a>
+          
+            </div>
+            <div class="about-img"></div>
+        </div>
+    </section>
+
+    <!--OUR MISSION AND VISION-->
+    <div class="who-we-are-section">
+        <h1 class="section-title">WHO WE ARE</h1>
+        <div class="underline"></div>
+
+        <div class="content-container">
+            <div class="info-card">
+                <div class="icon-circle">
+                    <i class="fa-solid fa-water"></i>
+                </div>
+                <h2>Our Mission</h2>
+                <p>To meet our customers’ ample and quality water &amp; facility management needs
+in line with international best practices within the best possible response time.</p>
+            </div>
+
+            <div class="info-card">
+                <div class="icon-circle">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h2>Our Vision</h2>
+                <p>Offer pragmatic solution and value for money services with professionalism,
+integrity, honesty and dedication.</p>
+            </div>
+
+            <div class="info-card">
+                <div class="icon-circle">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h2>Our People</h2>
+                <p>Our dedicated team of skilled engineers and professionals drives innovation and excellence in water and facility management, delivering with passion and expertise.</p>
+            </div>
+        </div>
+    </div>
+
+<!--PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <h2>Our Expertise</h2>
+        <div class="portfolio-grid">
+            <div class="project">
+                <div class="project-img"></div>
+                <div class="project-info">
+                    <h3>WATER & PROCESS ENGINEERING</h3>
+                    <p>We deliver innovative water and process engineering solutions, optimizing groundwater management and treatment for sustainable outcomes.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-img" style="background: url('images/tank4.jpg') center/cover;"></div>
+                <div class="project-info">
+                    <h3>MECHANICAL ENGINEERING</h3>
+                    <p>We design and maintain advanced mechanical systems for water facilities, ensuring efficiency and durability.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-img" style="background: url('https://evreka.co/wp-content/uploads/2022/04/Wastewater-treatment-and-disposal-evreka-scaled.jpg') center/cover;"></div>
+                <div class="project-info">
+                    <h3>SEWAGE & EFFLUENT WATER MANAGEMENT</h3>
+                    <p>Our expertise ensures effective sewage treatment and effluent management for cleaner water systems.</p>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-img" style="background: url('https://www.csemag.com/wp-content/uploads/2025/03/CSE2209_MAG_ELECTRICAL_03-645x350-2.jpg') center/cover;"></div>
+                <div class="project-info">
+                    <h3>ELECTRICAL ENGINEERING</h3>
+                    <p>We provide reliable electrical solutions for water infrastructure, powering sustainable projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!--Services-->
+<section class="services" id="what-we-do" class="section">
+       <h2>Our Portfolio</h2>
+       <p style="text-align: center;">Here are pictures from our executed projects</p>
+   </section>
+
+   <section class="service-gallery">
+    <div class="gallery-item">
+        <img src="images/water.JPG" alt="Water & Process Engineering | Management">
+        <div class="gallery-caption">Water Treatment Plant</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/swam.JPG" alt="Mechanical Engineering | Maintenance">
+        <div class="gallery-caption">Swimming pool Treatment Systems</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/drill.PNG" alt="Electrical Engineering | Civil Engineering Services">
+        <div class="gallery-caption">Drilling Operations</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/abe.JPG" alt="Sewage & Effluent Water Management ">
+        <div class="gallery-caption">Day Waterman College, Abeokuta</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/cis.JPG" alt="Facility Management | Consultancy Services">
+        <div class="gallery-caption">Children International School, Lekki, Lagos</div>
+    </div>
+    <div class="gallery-item">
+        <img src="images/front.jpg" alt="Real Estate Development">
+        <div class="gallery-caption">Real Estate Development</div>
+    </div>
+</section>
+
+
+
+
+    <!--Our Clients-->
+    <section id="our-clients" class="our-clients">
+<h2>Our Clients</h2>
+<div id="client-gallery"class="client-gallery" class="section">
+  <div class="client-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZJTjYLizL79RcFOxl8gZK3LRpHT2tL5vobw&s" alt="Image 3">
+      <div class="client-caption">Corona School</div>
+  </div>
+  <div class="client-item">
+      <img src="data:image/png;base64,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" alt="Image 4">
+      <div class="client-caption">DAY WATERMAN </div>
+  </div>
+  <div class="client-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhxlfbWZ297JzPIVjZUjTzo1T74k5iOdGe6GD0HUMpZA0TuxAJv_aCmYGUMmljSuvGNLU&usqp=CAU" alt="Image 5">
+      <div class="client-caption">CIS</div>
+  </div>
+  
+</div>
+</section>
+
+   <!--Quote-->
+<div class="slideshow-container" class="section">
+
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides">
+    <q>Engineering is the closest thing to magic that exists in the world.</q>
+    <p class="author">– Elon Musk</p>
+  </div>
+
+  <div class="mySlides">
+    <q>Water is the driving force of all nature. </q>
+    <p class="author">– Leonardo da Vinci</p>
+  </div>
+
+  <div class="mySlides">
+    <q>Discipline is choosing between what you want now and what you want most.</q>
+    <p class="author">- Abraham Lincoln</p>
+  </div>
+  <div class="mySlides">
+    <q>The best way to predict the future is to create it.</q>
+    <p class="author">– Peter Drucker</p>
+  </div>
+  <div class="mySlides">
+    <q>Quality means doing it right when no one is looking.</q>
+    <p class="author">– Henry Ford</p>
+  </div>
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" href="mailto:avalanchekoncept@yahoo.com?subject=Inquiry%20from%20Portfolio" >Send Message</button>
+        </form>
+        <a href="mailto:bimoroa2017@gmail.com" class="email-link">Or email me directly</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Avalanche Engineering. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('nav-menu');
+            menu.classList.toggle('active');
+        }
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Message sent! (Demo)');
+        });
+    </script>
+</body>
+</html>
