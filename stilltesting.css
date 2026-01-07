@@ -624,6 +624,7 @@ text-align: center;}
             background: #222;
             color: #fff;
             border-radius: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .contact button {
             padding: 1rem;
